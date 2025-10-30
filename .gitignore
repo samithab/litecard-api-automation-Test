@@ -1,0 +1,24 @@
+# macOS system files
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Postman export or local backups
+*_backup.json
+*.postman_dump
+
+# Sensitive or environment-specific data
+.env
+.env*
+*_token.json
+
+# Node.js dependencies (if running with Newman)
+node_modules/
+npm-debug.log
+package-lock.json
+
+# IDE / workspace files
+.idea/
+.vscode/
